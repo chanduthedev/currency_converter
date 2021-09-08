@@ -37,7 +37,7 @@ def test_from_required(client):
     assert 400 == x.status_code, "From is a required paramater"
 
 
-def test_from_required(client):
+def test_from_supported(client):
     baseQuery = copy.deepcopy(baseQueryOriginal)
     baseQuery.update({"from": "ASH"})
     x = client.get('/convert?', query_string=baseQuery)
