@@ -1,0 +1,10 @@
+{
+  "api": {
+    "hostname": "localhost",
+    "port": "900"
+  },
+  "mongodb": {
+    "hostname": "localhost",
+    "port": "27017"
+  }
+}
